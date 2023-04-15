@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "marquee.css",
+	"sources": [
+		"../sass/marquee.scss",
+		"../sass/fonts.scss",
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"./fonts.scss\";\n@import \"./variables.scss\";\n\n.marquee-container {\n  background-color: $marquee-bg;\n  transform: rotate(7deg);\n  margin-top: 150px;\n  margin-bottom: 150px;\n  // To make the corners of the div invisible\n  width: 120vw;\n  margin-left: -20px;\n}\n\nmarquee {\n  font-family: AzeretVariable;\n  text-transform: uppercase;\n  font-weight: 600;\n  font-size: 5em;\n  color: $marquee-font-color;\n  width: 100vw;\n}\n\n.end-marquee {\n  transform: rotate(-7deg) !important;\n}",
+		"@font-face {\n  font-family: Berkshire;\n  src: url('../assets/fonts/BerkshireSwash-Regular.ttf');\n}\n\n@font-face {\n  font-family: AzeretVariable;\n  src: url('../assets/fonts/AzeretMono-VariableFont_wght.ttf');\n}\n\n",
+		"$marquee-bg: #1c1c1c;\n$marquee-font-color: #fee501;\n$primary: #f4ba2f;"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,iDAAiD;;;AAGxD,UAAU;EACR,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,uDAAuD;;;;ADJ9D,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EEJL,OAAO;EFKlB,SAAS,EAAE,YAAY;EACvB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;EAEpB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,KAAK;CACnB;;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,cAAc;EAC3B,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,GAAG;EACd,KAAK,EEjBc,OAAO;EFkB1B,KAAK,EAAE,KAAK;CACb;;;AAED,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,aAAa,CAAC,UAAU;CACpC"
+}

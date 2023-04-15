@@ -1,0 +1,35 @@
+@import "../fonts.scss";
+@import "../variables.scss";
+
+.cta-primary {
+  width: fit-content;
+  padding: 20px;
+  background-color: $primary;
+  border: none;
+  border-radius: 17px;
+
+  font-family: AzeretVariable;
+  font-weight: 600;
+}
+
+.cta-nav {
+  width: fit-content;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 17px;
+  background-color: $primary;
+
+  font-family: AzeretVariable !important;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.cta-nav:hover,
+.cta-primary:hover {
+  border: 1px solid $primary;
+  color: $primary;
+  background-color: transparent;
+}

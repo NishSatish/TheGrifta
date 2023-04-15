@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"$marquee-bg: #1c1c1c;\n$marquee-font-color: #fee501;\n$primary: #f4ba2f;"
+	],
+	"names": [],
+	"mappings": ""
+}

@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "hero.css",
+	"sources": [
+		"../sass/hero.scss",
+		"../sass/fonts.scss",
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"./fonts.scss\";\n@import \"./variables.scss\";\n\n#hero {\n  margin-top: 70px;\n}\n\n.hero-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  min-height: 500px;\n\n  h1 {\n    font-family: Berkshire;\n    font-size: 5em;\n  }\n\n  p {\n    font-family: AzeretVariable;\n    font-weight: 400;\n    font-size: 1.2em;\n    letter-spacing: 0.1em;\n    line-height: 30px;\n    margin-top: 20px;\n    margin-bottom: 50px;\n    text-align: left;\n  }\n}\n\n.hero-img {\n  img {\n    width: 100%;\n  }\n}",
+		"@font-face {\n  font-family: Berkshire;\n  src: url('../assets/fonts/BerkshireSwash-Regular.ttf');\n}\n\n@font-face {\n  font-family: AzeretVariable;\n  src: url('../assets/fonts/AzeretMono-VariableFont_wght.ttf');\n}\n\n",
+		"$marquee-bg: #1c1c1c;\n$marquee-font-color: #fee501;\n$primary: #f4ba2f;"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,iDAAiD;;;AAGxD,UAAU;EACR,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,uDAAuD;;;;ADJ9D,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;CACjB;;;AAED,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,KAAK;CAiBlB;;;AArBD,AAME,SANO,CAMP,EAAE,CAAC;EACD,WAAW,EAAE,SAAS;EACtB,SAAS,EAAE,GAAG;CACf;;;AATH,AAWE,SAXO,CAWP,CAAC,CAAC;EACA,WAAW,EAAE,cAAc;EAC3B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK;EAChB,cAAc,EAAE,KAAK;EACrB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,IAAI;CACjB;;;AAGH,AACE,SADO,CACP,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ"
+}

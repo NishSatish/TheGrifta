@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../sass/fonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\n  font-family: Berkshire;\n  src: url('../assets/fonts/BerkshireSwash-Regular.ttf');\n}\n\n@font-face {\n  font-family: AzeretVariable;\n  src: url('../assets/fonts/AzeretMono-VariableFont_wght.ttf');\n}\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,iDAAiD;;;AAGxD,UAAU;EACR,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,uDAAuD"
+}

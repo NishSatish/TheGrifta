@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "button.css",
+	"sources": [
+		"../../sass/components/button.scss",
+		"../../sass/fonts.scss",
+		"../../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"../fonts.scss\";\n@import \"../variables.scss\";\n\n.cta-primary {\n  width: fit-content;\n  padding: 20px;\n  background-color: $primary;\n  border: none;\n  border-radius: 17px;\n\n  font-family: AzeretVariable;\n  font-weight: 600;\n}\n\n.cta-nav {\n  width: fit-content;\n  padding-left: 17px;\n  padding-right: 17px;\n  padding-top: 5px;\n  padding-bottom: 5px;\n  border: none;\n  border-radius: 17px;\n  background-color: $primary;\n\n  font-family: AzeretVariable !important;\n  font-size: 0.85em;\n  font-weight: 600;\n}\n\n.cta-nav:hover,\n.cta-primary:hover {\n  border: 1px solid $primary;\n  color: $primary;\n  background-color: transparent;\n}",
+		"@font-face {\n  font-family: Berkshire;\n  src: url('../assets/fonts/BerkshireSwash-Regular.ttf');\n}\n\n@font-face {\n  font-family: AzeretVariable;\n  src: url('../assets/fonts/AzeretMono-VariableFont_wght.ttf');\n}\n\n",
+		"$marquee-bg: #1c1c1c;\n$marquee-font-color: #fee501;\n$primary: #f4ba2f;"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,iDAAiD;;;AAGxD,UAAU;EACR,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,uDAAuD;;;;ADJ9D,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,WAAW;EAClB,OAAO,EAAE,IAAI;EACb,gBAAgB,EEJR,OAAO;EFKf,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;EAEnB,WAAW,EAAE,cAAc;EAC3B,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,WAAW;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;EACnB,gBAAgB,EEpBR,OAAO;EFsBf,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,QAAQ,AAAA,MAAM;AACd,YAAY,AAAA,MAAM,CAAC;EACjB,MAAM,EAAE,GAAG,CAAC,KAAK,CE7BT,OAAO;EF8Bf,KAAK,EE9BG,OAAO;EF+Bf,gBAAgB,EAAE,WAAW;CAC9B"
+}

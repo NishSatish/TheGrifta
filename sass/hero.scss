@@ -1,0 +1,35 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+#hero {
+  margin-top: 70px;
+}
+
+.hero-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+
+  h1 {
+    font-family: Berkshire;
+    font-size: 5em;
+  }
+
+  p {
+    font-family: AzeretVariable;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+}
+
+.hero-img {
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Berkshire;
+  src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
+}
+
+@font-face {
+  font-family: AzeretVariable;
+  src: url("../assets/fonts/AzeretMono-VariableFont_wght.ttf");
+}
+
+/* line 4, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/features.scss */
+#features {
+  margin-top: 90px;
+}
+
+/* line 8, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/features.scss */
+.features {
+  background-color: #f5ce76;
+  padding: 30px;
+  border: 4px solid #21252a;
+  border-radius: 34px;
+}
+
+/* line 14, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/features.scss */
+.features h1 {
+  font-family: Berkshire;
+  font-size: 4em;
+}
+
+/* line 19, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/features.scss */
+.features p {
+  margin-top: 30px;
+  font-family: AzeretVariable;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+/* line 27, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/features.scss */
+.features-list {
+  display: flex;
+  flex-direction: column;
+  font-family: AzeretVariable;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=features.css.map */

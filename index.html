@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/hover-min.css" />
+  <link rel="stylesheet" href="./css/bootstrap5.min.css" />
+  <script src="./js/bootstrap5.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+  <title>The Grifta</title>
+</head>
+
+<body>
+  <!-- ---------------------------------------------NAV SECTION--------------------------------------------- -->
+
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="https://bmscealumni.org" target="_blank">
+      <img src="./assets/img/1.svg" alt="logo" id="logo" draggable="false" />
+    </a>
+    <a class="navbar-toggler" onclick="overlay()">
+      <img src="./assets/img/MENU.svg" class="overlayer" draggable="false" />
+    </a>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto absolute-ele not-fixed-top">
+        <li class="nav-item active">
+          <a href="#" class="nav-link hvr-bob">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-bob" href="#activities">Activites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-bob" href="#contact">Contact</a>
+        </li>
+        <li class="nav-link">
+          <a href="#activities">
+            <button class="cta-nav hvr-bob">Register</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="oNav" class="overlay-nav">
+      <div class="overlay-content">
+        <span class="closebtn" onclick="closeOverlay()">
+          <img src="./assets/img/cross_y.svg" alt="" draggable="false" />
+        </span>
+        <a href="#" class="nav-link overlay-link" onclick="closeOverlay()">HOME</a>
+        <a href="#contact" class="nav-link overlay-link" onclick="closeOverlay()">CONTACT</a>
+        <a href="#activites" class="nav-link overlay-link" onclick="closeOverlay()">ACTIVITIES</a>
+        <a href="#activities" onclick="closeOverlay()">
+          <button class="btn overlay-cta hvr-bob">Register Now</button>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- --------------------------------------------- HERO --------------------------------------------- -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero">
+        <div class="row">
+          <div class="col-md hero-txt">
+            <h1>Gifting Just Got Easier</h1>
+            <p>All you have to do is choose what you need and let us handle the rest. ‘Merch’ing your way</p>
+            <button class="cta-primary hvr-bob">Get Started</button>
+          </div>
+          <div class="col-md hero-img text-center">
+            <img src="./assets/img/2.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------- MARQUEE --------------------------------------------- -->
+  <div class="marquee-container">
+    <marquee scrollamount="20" direction="right">
+      many more • jackets • mugs • t-shirts • hats • bags • many more • jackets • mugs • t-shirts • hats • bags
+    </marquee>
+  </div>
+
+  <!-- --------------------------------------------- INFO --------------------------------------------- -->
+  <section id="info-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center info-img">
+          <img src="./assets/img/4.svg" alt="">
+        </div>
+        <div class="col-md info-txt">
+          <h1>Looking To Ship Some Cool Merch?</h1>
+          <p>
+            Or to showcase your brand in an event? Get all the swag you need to build a strong connect with your
+            customers or thank your team with just a click!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------- FEATURES --------------------------------------------- -->
+  <section id="features">
+    <div class="container">
+      <div class="features">
+        <h1>Elevate your gifting game with our curated selection, hassle-free delivery, and personalized touch</h1>
+        <p>
+          What we offer:
+        <div class="features-list">
+          <span>• Customize all you want</span>
+          <span>• A touch of personalization</span>
+          <span>• Track and manage your orders</span>
+          <span>• End-to-end customer service</span>
+        </div>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------- MARQUEE --------------------------------------------- -->
+  <div class="marquee-container end-marquee">
+    <marquee scrollamount="20" direction="right">
+      many more • jackets • mugs • t-shirts • hats • bags • many more • jackets • mugs • t-shirts • hats • bags
+    </marquee>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+.info-img {
+  img {
+    width: 70%;
+  }
+}
+
+.info-txt {
+  padding: 20px;
+
+  h1 {
+    font-family: Berkshire;
+    font-size: 3em;
+    color: $primary;
+  }
+
+  p {
+    font-family: AzeretVariable;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 0.08em;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+}

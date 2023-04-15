@@ -1,0 +1,25 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+.marquee-container {
+  background-color: $marquee-bg;
+  transform: rotate(7deg);
+  margin-top: 150px;
+  margin-bottom: 150px;
+  // To make the corners of the div invisible
+  width: 120vw;
+  margin-left: -20px;
+}
+
+marquee {
+  font-family: AzeretVariable;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 5em;
+  color: $marquee-font-color;
+  width: 100vw;
+}
+
+.end-marquee {
+  transform: rotate(-7deg) !important;
+}

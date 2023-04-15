@@ -1,0 +1,179 @@
+/* line 4, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar {
+  height: 120px;
+  z-index: 100;
+  color: white !important;
+}
+
+/* line 12, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar-brand {
+  color: white;
+  margin-left: 55px;
+}
+
+/* line 16, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar-brand img {
+  width: 200px;
+}
+
+/* line 22, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.not-fixed-top a {
+  color: black;
+  font-size: 0.9em;
+}
+
+/* line 27, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.not-fixed-top a:hover {
+  color: white;
+}
+
+/* line 32, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.fixed-top {
+  height: 80px;
+  transition-property: opacity;
+  background-color: rgba(255, 255, 255, 0.898);
+  box-shadow: 5px 5px 20px #919191;
+}
+
+/* line 40, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.fixed-top a {
+  color: blue;
+}
+
+/* line 49, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.fixed-top .navbar-brand img {
+  width: 150px;
+}
+
+/* line 55, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.color-remover {
+  background-color: transparent;
+}
+
+/* line 59, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar-toggler {
+  border: none !important;
+}
+
+/* line 63, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlayer {
+  height: 4em;
+}
+
+/* line 67, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar-nav {
+  position: absolute;
+  right: 100px;
+  font-family: PoppinsMedium;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+/* line 75, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.navbar-nav .nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* line 82, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlay-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #353840;
+  opacity: 0.95;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/* line 95, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlay-content {
+  position: relative;
+  top: 23%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 102, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlay-content .overlay-link {
+  font-family: PoppinsBold;
+  font-size: 2em;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* line 110, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlay-content img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 115, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+.overlay-content .overlay-cta {
+  border-radius: 34px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+@media (max-width: 824px) {
+  /* line 129, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .fixed-top .navbar-brand {
+    margin-left: 41vw;
+  }
+  /* line 132, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .fixed-top .navbar-brand img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* line 140, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .navbar-brand {
+    margin-left: 35vw;
+    margin-top: initial;
+  }
+  /* line 144, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .navbar-brand img {
+    width: 120px;
+  }
+  /* line 149, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .overlayer {
+    height: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 155, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .fixed-top {
+    opacity: 0.998;
+  }
+}
+
+@media (max-width: 384px) {
+  /* line 162, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .fixed-top .navbar-brand {
+    margin-left: 35.5vw;
+  }
+  /* line 165, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .fixed-top .navbar-brand img {
+    width: 120px;
+  }
+}
+
+@media (max-height: 665px) {
+  /* line 173, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/navbar.scss */
+  .overlay-content {
+    top: 3%;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */
