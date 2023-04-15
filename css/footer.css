@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Berkshire;
+  src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
+}
+
+@font-face {
+  font-family: AzeretVariable;
+  src: url("../assets/fonts/AzeretMono-VariableFont_wght.ttf");
+}
+
+/* line 4, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/footer.scss */
+#footer {
+  margin-top: 70px;
+}
+
+/* line 8, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/footer.scss */
+footer {
+  height: fit-content;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #21252a;
+  color: white;
+}
+
+/* line 16, ../../../../../Users/nishsatish/Desktop/Development/TheGrifta/sass/footer.scss */
+footer marquee {
+  font-size: 2.5em;
+}
+
+/*# sourceMappingURL=footer.css.map */
