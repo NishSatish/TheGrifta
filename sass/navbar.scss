@@ -89,49 +89,10 @@
   }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 417px) {
   .navbar-toggler {
     button {
-      font-size: 0.7em;
+      font-size: 0.55em;
     }
   }
 }
-
-// @media (max-width: 540px) {
-//   .navbar-brand {
-//     margin-left: 35vw;
-//     margin-top: initial;
-
-//     img {
-//       width: 120px;
-//     }
-//   }
-
-//   .overlayer {
-//     height: 3em;
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   .fixed-top {
-//     opacity: 0.998;
-//   }
-// }
-
-// @media (max-width: 384px) {
-//   .fixed-top {
-//     .navbar-brand {
-//       margin-left: 35.5vw;
-
-//       img {
-//         width: 120px;
-//       }
-//     }
-//   }
-// }
-
-// @media (max-height: 665px) {
-//   .overlay-content {
-//     top: 3%;
-//   }
-// }
