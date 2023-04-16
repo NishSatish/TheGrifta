@@ -23,3 +23,16 @@
 .form-holder {
   border-radius: 17px;
 }
+
+// -------------------------------- MEDIA QUERIES ----------------------------
+@media (max-width: 767px) {
+  .contact-img {
+    border: none;
+    margin-bottom: 30px;
+
+    button {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}

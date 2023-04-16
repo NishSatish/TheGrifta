@@ -7,7 +7,7 @@
   margin-top: 150px;
   margin-bottom: 150px;
   // To make the corners of the div invisible
-  width: 120vw;
+  width: 150vw;
   margin-left: -20px;
 }
 
@@ -22,4 +22,11 @@ marquee {
 
 .end-marquee {
   transform: rotate(-7deg) !important;
+}
+
+// -------------------------------- MEDIA QUERIES ----------------------------
+@media (max-width: 417px) {
+  marquee {
+    font-size: 2em;
+  }
 }

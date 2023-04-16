@@ -31,3 +31,28 @@
   font-weight: 500;
   font-size: 1.5em;
 }
+
+// -------------------------------- MEDIA QUERIES ----------------------------
+@media (max-width: 640px) {
+  .features {
+    align-items: center;
+
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+}
+
+@media (max-width: 417px) {
+  .features {
+    padding: 20px;
+
+    h1 {
+      font-size: 1.9em;
+    }
+  }
+
+  .features-list {
+    font-size: 1.2em;
+  }
+}
